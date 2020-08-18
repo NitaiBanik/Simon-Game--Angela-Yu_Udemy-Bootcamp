@@ -61,7 +61,6 @@ function nextSequence() {
   userClickedPattern = [];
 
 
-  //5. Inside nextSequence(), update the h1 with this change in the value of level.
   $("#level-title").text("Level " + label);
 
   var randomNumber = Math.floor(Math.random() * 4);
